@@ -37,7 +37,7 @@ def show(text):
 
 
 def id_edit_del_show(text):
-    id = input('Введите id необходимой заметки: ')
+    id = input('Введите id необходимой заметки:  ')
     array = file_operation.read_file()
     logic = True
     for notes in array:
